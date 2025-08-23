@@ -23,21 +23,18 @@ public class ejercicios2 {
         radio = input.nextDouble();
         area = PI * radio * radio;
         System.out.println("El area del circulo es: " + area); 
-        scanner.close();
+       
         
         
         //Pregunta 2 
-        Scanner input = new Scanner(System.in);
         double celsius;
         double fahrenheit;
         System.out.print("Ingrese la temperatura en grados Celsius: ");
         celsius = input.nextDouble();
         fahrenheit = (celsius * 9/5)+32;
         System.out.println("La temperatura en Fahrenheit es: " + fahrenheit);
-        scanner.close();
         
         //Pregunta 3 
-        Scanner input = new Scanner(System.in);
         double numero1;
         double numero2;
         double numero3;
@@ -55,6 +52,8 @@ public class ejercicios2 {
         promedio = (numero1 + numero2 + numero3)/3;
         
         System.out.println("El promedio de los tres numeros es: " + promedio);
-        scanner.close();
+        
+                
     }
+    
 }
