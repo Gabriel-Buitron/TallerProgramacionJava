@@ -24,6 +24,7 @@ public class ejemplomath {
      double raizcua = Math.sqrt(nume);
      System.out.println("La Raiz cuadrada de " + nume + " es: " + raizcua); 
              
+     scanner.close();
      
     }
 }

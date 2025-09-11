@@ -53,7 +53,7 @@ public class ejercicios2 {
         
         System.out.println("El promedio de los tres numeros es: " + promedio);
         
-                
+       
     }
     
 }
